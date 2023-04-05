@@ -1,0 +1,97 @@
+#about{
+  .about{
+    position: relative;
+    padding-bottom: 100px;
+    &--all{
+      position: absolute;
+      top: 0;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      &__txt{
+        width: 50%;
+        h1{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 55px;
+          color: #FFFFFF;
+          padding-bottom: 30px;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #FFFFFF;
+          margin-bottom: 37px;
+        }
+        button{
+          font-weight: 400;
+          font-size: 14px;
+          color: #FFFFFF;
+          background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+          border-radius: 4px;
+          padding: 7px 15px;
+        }
+      }
+    }
+    &--bg{
+      background: rgba(29, 78, 216, 0.16);
+      filter: blur(100px);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      width: 300px;
+      height: 500px;
+    }
+  }
+  .about-two{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--all{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+
+      justify-content: space-around;
+      align-items: center;
+
+      &__txt{
+        width: 50%;
+        h1{
+          font-size: 41px;
+          font-weight: 700;
+          color: #FFFFFF;
+
+          line-height: 55px;
+          padding-bottom: 30px;
+        }
+        p{
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 26px;
+          color: #FFFFFF;
+          margin-bottom: 37px;
+        }
+        button{
+          font-weight: 400;
+          font-size: 14px;
+          color: #FFFFFF;
+          background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+          border-radius: 4px;
+          padding: 7px 15px;
+        }
+      }
+    }
+
+    &--bg{
+      background: rgba(29, 78, 216, 0.16);
+      filter: blur(100px);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      width: 300px;
+      height: 500px;
+    }
+  }
+}

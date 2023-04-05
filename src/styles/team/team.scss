@@ -1,0 +1,100 @@
+#team {
+  padding: 200px 0;
+
+  .team {
+    position: relative;
+
+    &--all {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      top: 0;
+
+      &__title {
+        align-items: center;
+        text-align: center;
+
+        h1 {
+          font-weight: 700;
+          font-size: 42px;
+          color: #FFFFFF;
+          margin-bottom: 30px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+          text-align: center;
+          margin-bottom: 40px;
+          width: 480px;
+          color: #FFFFFF;
+        }
+      }
+
+      &__blocks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &--block {
+          padding: 32px 65px;
+          background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+          box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+          border-radius: 34px;
+          margin: 0 15px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 270px;
+
+          h1 {
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+          }
+
+          h2 {
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+            width:197px;
+            text-align: center;
+
+          }
+
+          &__icons {
+            display: flex;
+            width: 108px;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+
+    &--bg {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      &__one {
+        width: 200px;
+        height: 280px;
+        background: rgba(81, 65, 218, 0.38);
+        filter: blur(100px);
+      }
+
+      &__two {
+        width: 220px;
+        height: 300px;
+        background: rgba(81, 65, 218, 0.38);
+        filter: blur(100px);
+      }
+    }
+  }
+}
